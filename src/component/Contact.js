@@ -7,7 +7,7 @@ function Contact() {
         <p>
           <ul>
             <li>Mail:divyashree2004@gmail.com</li>
-            <li>Mobile No:7386367688</li>
+            <li>Mobile No:86367688</li>
           </ul>
         </p>
       </div>
