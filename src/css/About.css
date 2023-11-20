@@ -1,0 +1,34 @@
+#about{
+    margin-top: 50px;
+    color:white;
+}
+#about h2{
+    text-align:center;
+    color:#12f7ff;
+}
+#about h2:hover{
+        text-shadow:0 0 10px rgba(18,247,255,0.6),
+        0 0 20px rgba(18,247,255,0.6),
+        0 0 30px rgba(18,247,255,0.6),
+        0 0 40px rgba(18,247,255,0.6),
+        0 0 70px rgba(18,247,255,0.6),
+        0 0 80px rgba(18,247,255,0.6);;
+    }
+    #about p{
+        text-align: center;
+    }
+.photo{
+    
+    text-align: center;
+}
+.photo img{
+    border-radius:50%;
+    width: 350px;
+  height: 450px;
+}
+@media(max-width:600px){
+   .photo img{
+        width: 260px;
+        height: 300px;
+    }
+}
