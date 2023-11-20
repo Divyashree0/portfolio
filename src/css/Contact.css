@@ -22,4 +22,25 @@
 #contact p{
     text-align: center;
 }
+.container1{
+    max-width:800px;
+    margin:0 auto;
+    text-align: center;
+}
+.container1 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+ input{
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10%;
+}
+textarea{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10%;
+}
 
