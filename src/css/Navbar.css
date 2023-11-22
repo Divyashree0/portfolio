@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 header{
    background-size:cover;
@@ -27,7 +28,7 @@ header{
 .sidebar{
     background-color:#250821;
     padding-top: 40px;
-    padding-left: 15px;
+    padding-left:15px;
     display: block;
     justify-content: space-between;
     float: left;
@@ -44,20 +45,18 @@ header{
     font-weight: bold;
     font-size: 15px;
     padding: 15px;
-
 }
 .sidebar a:hover{
     border: 1px solid #12f7ff;
  }
 .sidebar ul{
     display: block;
-}
+} 
 .sidebar ul li{
     width: 100%;
     list-style: none;
     justify-content: space-between;
     display: block;
-    
 }
 
 .container{
@@ -134,6 +133,14 @@ button{
     background: #12f7ff;
 }
 @media screen and (max-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
     .nav-links {
         display: none;
         flex-direction: column;

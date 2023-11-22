@@ -10,7 +10,7 @@ export default function Home() {
       <Education/>
       <Skills />
       <Contact />
-      <More_Info />
+      <More_Info/>
     </>
   );
 }

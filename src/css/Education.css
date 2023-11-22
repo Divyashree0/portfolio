@@ -16,7 +16,7 @@
     #primary:hover {
       transform: perspective(800px) rotateX(10deg) rotateY(10deg);
     }
-#highschool{
+#highschool{ 
     height: 300px;
     width: 35%;
     padding:15px;

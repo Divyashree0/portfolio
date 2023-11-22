@@ -22,7 +22,7 @@ function App() {
             <Route path="/more_info" element={<More_Info />} />
           </Routes>
         </BrowserRouter>
-      </div>
+         </div>
     </>
   );
 }

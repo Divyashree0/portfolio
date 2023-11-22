@@ -13,7 +13,6 @@ function Navbar() {
   };
   return (
     <div className="navbar">
-      <div className="logo">Divya</div>
       <div className="container">
         <ul className="nav-links">
           {locpath === "/" ? "" : <Link to="/">Home</Link>}

@@ -1,6 +1,9 @@
 #contact{
-    margin-top: 50px;
+    min-height: 50vh;
+    padding: 10px;
+    text-align: center;
     color:white;
+    margin-top: 50px;
 }
 #contact h2{
     text-align:center;
@@ -16,31 +19,82 @@
     0 0 80px rgba(18,247,255,0.6);;
 
 }
-#contact ul{
-    list-style: none;
-}
-#contact p{
-    text-align: center;
-}
-.container1{
-    max-width:800px;
-    margin:0 auto;
-    text-align: center;
-}
-.container1 h3{
-    font-size: 20px;
+  .container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#250821;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .container1 h3{
+    font-size: 18px;
     margin-bottom: 20px;
     color: white;
 }
- input{
-    padding: 10px;
+  label {
+    display: block;
     margin-bottom: 5px;
-    border-radius: 10%;
-}
-textarea{
+    color:white;
+    text-align: left;
+  }
+  
+  input,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    display: inline-block;
+    padding: 12px 24px;
+    height: 40px;
+    width: 20%;
+    border: none;
+    background-color: #12f7ff;
+    color: black;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover{
+    background-color: white;
+  }.Contact-info p{
+    margin-bottom: 10px;
+    color:white;
     text-align: center;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 10%;
 }
-
+.Contact-info {
+  padding: 15px; 
+}
+.Contact-info h3 {
+  color:white; 
+}
+.Contact-info p {
+  margin: 10px 0; 
+}
+.container1 img{
+  width: 30px;
+ height: 30px;
+}
+.icon {
+  width: 25px;
+  height: 25px; 
+  margin-right: 5px;
+}
+  @media(max-width:600px){
+    input[type="submit"] {
+        display: inline-block;
+        padding: 12px 24px;
+        height: 40px;
+        width: 40%;
+        border: none;
+        background-color: #12f7ff;
+        color: black;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover{
+        background-color: white;
+      }
+      .container1 img{
+        width: 30px;
+       height: 30px;
+      }
+    }
