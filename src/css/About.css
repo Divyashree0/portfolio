@@ -24,7 +24,7 @@
     margin-top: 2px;
     color:white;
     padding: 2px;
-    margin-left:50px;
+    margin-left:25px;
 }
 #about h2{
     text-align:center;
@@ -90,24 +90,32 @@
         width: 220px;
         height: 300px;
         padding: 15px;
-       margin: 15px;
+       margin:15px;
+       margin-left:50px;
     }
+    .firstsection p {
+      width: fit-content;
+    align-items:center ;
+  }
     div.firstsection {
-      width:30%;
+      width:25%;
        margin-bottom: 0; 
        text-align: center;
       margin-left:75px;
+      flex-direction: column;
        }
-     .firstsection {
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-        }
        .leftsection {
           width:50%;
           margin-bottom: 0;
           margin-right:100px; 
           text-align: center;
+        }
+        .leftsection h2{
+          padding:45px;
+          padding-top:10px;
+          padding-bottom:5px;;
+          margin:5px;
+          justify-content: center;
         }
       }
       
