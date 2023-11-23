@@ -23,7 +23,6 @@
 #about{
     margin-top: 2px;
     color:white;
-    padding: 2px;
     margin-left:25px;
 }
 #about h2{
@@ -98,6 +97,7 @@
     align-items:center ;
   }
     div.firstsection {
+      display:inline-block;
       width:25%;
        margin-bottom: 0; 
        text-align: center;
