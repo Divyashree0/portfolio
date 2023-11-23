@@ -33,10 +33,12 @@
     }
     @media(max-width:600px){
            div#more_info {
-            width: 60%;
+            width:50%;
              margin-bottom: 0; 
              text-align: center;
-            margin-left: 60px;
+            margin-left:50px;
+            width: 30px;
+                height: 30px;
              }
            }
      
