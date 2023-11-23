@@ -75,8 +75,9 @@
   }
 @media(max-width:600px){
   div#about{
-    width: 100%;
+    width:50%;
     display: flex;
+    margin-left:110px;
   }
   .home-content {
     padding:5px; 
@@ -98,7 +99,7 @@
     }
     .firstsection p {
       width: fit-content;
-    align-items:center ;
+    align-items:center;
   }
     div.firstsection {
       width:50%;
