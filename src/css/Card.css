@@ -14,9 +14,10 @@
     background: #250821;
     color: white;
     border: 2px solid #12f7ff;
+    box-shadow: 5px 5px 8px 6px #12f7ff;
     transition: transform 0.5s; 
     }
-    .primary:hover {
+  .primary:hover {
       transform: perspective(800px) rotateX(10deg) rotateY(10deg);
     }
 .pd{
