@@ -7,7 +7,7 @@ function About() {
       <h1>Hi! I'm Divyashree</h1>
       <div className="change-text">
         <h3>And I'm</h3>
-        <h3><span className="word">UX/UI Developer</span></h3>
+        <h3><span className="word">UI/UX Developer</span></h3>
       </div>
     </div>
       <div id="about">
