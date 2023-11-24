@@ -12,9 +12,7 @@ function More_Info()
           Ramakunjeshwara English Medium School,Ramkunja.
         </p>
       </div><br/><br/>
-      <div class="footer">
-    <footer>Created By Divyashree</footer>
-    </div>
+
       </>
   );
 }

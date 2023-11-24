@@ -24,7 +24,7 @@ function About() {
           <img src={img3} alt="img3" />
         </div>
         </div>
-      </div>
+      </div><br/><br/><br/>
     </>
   );
 }

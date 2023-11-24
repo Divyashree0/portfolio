@@ -20,7 +20,7 @@
     #more_info p{
         text-align: center;
     }
-    footer {
+    /*footer {
         background-color:#12f7ff;
         color:black;
         padding:10px;
@@ -30,7 +30,7 @@
         bottom:0;
         width: 100%;
         text-align: center;
-    }
+    }*/
     @media(max-width:600px){
            div#more_info {
             width:60%;
