@@ -1,6 +1,5 @@
 import "../css/Skills.css";
 import c from "../icon/c.svg";
-import cs from "../icon/cs.svg";
 import html from "../icon/html.svg";
 import css from "../icon/css.svg";
 import javascript from "../icon/javascript.svg";
@@ -12,7 +11,6 @@ function Skills() {
         <h2>Skills</h2>
         <p>
          <img src={c} alt="c" />
-         <img src={cs} alt="cs" />
          <img src={html} alt="html" />
          <img src={css} alt="css" />
          <img src={javascript} alt="javascript" />
