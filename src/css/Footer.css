@@ -2,7 +2,7 @@ footer {
     background-color:#12f7ff;
     color:black;
     padding:10px;
-    position: relative;
+    position:fixed;
     left:0;
     right:0;
     bottom:0;

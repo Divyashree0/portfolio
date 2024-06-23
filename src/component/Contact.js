@@ -37,8 +37,8 @@ function Contact(){
     </form></div>
     <div class="Contact-info">
          <h3>Contact Information</h3>
-        <p> <img src={phone} alt="html" class="icon" />  +1 234 567 890</p>
-        <p><img src={mail} alt="html" class="icon" />  info@gmail.com</p>
+        <p> <img src={phone} alt="html" class="icon" />7338037424</p>
+        <p><img src={mail} alt="html" class="icon" />Divyashreem2020@gmail.com</p>
     </div></div>
   );
 }
